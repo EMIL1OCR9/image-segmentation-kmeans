@@ -1,5 +1,6 @@
 data/
 results/figures/*
+!results/figures/iou_por_espacio_color.png
 results/segmented_images/*
 __pycache__/
 *.py[cod]
