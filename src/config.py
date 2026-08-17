@@ -14,6 +14,11 @@ N_INIT = 10           # inicializaciones de K-Means; no bajar a 1 por "velocidad
 # --- Rutas ---
 ROOT = Path(__file__).resolve().parent.parent
 DATA_RAW = ROOT / "data" / "raw"
+
+# Rutas concretas del dataset Oxford-IIIT Pet
+IMAGES_DIR = DATA_RAW / "images"
+TRIMAPS_DIR = DATA_RAW / "annotations" / "trimaps"
+
 DATA_PROCESSED = ROOT / "data" / "processed"
 RESULTS = ROOT / "results"
 FIGURES = RESULTS / "figures"
